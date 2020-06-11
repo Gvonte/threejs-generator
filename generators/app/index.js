@@ -26,14 +26,6 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    // let target = [
-    //   'public/favicon.ico', 
-    //   'public/index.html', 
-    //   'package.json', 
-    //   'proxy.json', 
-    //   'build/build.js', 
-    //   'build/check-versions.js',
-    // ];
     this.fs.copy(
       this.templatePath(),
       this.destinationPath()
@@ -42,6 +34,6 @@ module.exports = class extends Generator {
 
   install() {
     // this.installDependencies();
-    this.npmInstall();
+    // this.npmInstall();
   }
 };
