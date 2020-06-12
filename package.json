@@ -1,6 +1,6 @@
 {
   "name": "generator-gvonte",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "threejs generator",
   "homepage": "",
   "author": {
@@ -76,5 +76,5 @@
     "test": "jest"
   },
   "repository": "12/generator-gvonte",
-  "private": true
+  "private": false
 }
